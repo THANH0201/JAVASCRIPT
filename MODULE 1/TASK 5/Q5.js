@@ -9,6 +9,6 @@ if(year % 4 === 0 && year % 100 !==0 ||year % 400 === 0) {
   leap = 'is';
 }
 
-const result = `Year ${year} ${leap} a leap year`;
+const result = `Year <span style='color:blue'>${year}</span> <span style="color:red">${leap}</span> a leap year`;
 
 target.innerHTML = result;
